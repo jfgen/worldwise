@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { useParams, useSearchParams } from "react-router-dom";
 import styles from "./City.module.css";
 import { BASE_URL } from "../App";
 import Spinner from "./Spinner";
@@ -15,6 +15,11 @@ const formatDate = (date) =>
 function City() {
   const [currentCity, setCurrentCity] = useState({});
   const [isLoading, setIsLoading] = useState(false);
+
+  const [searchParams, setSearchParams] = useSearchParams();
+
+  const lat = searchParams.get("lat");
+  const lng = searchParams.get("lng");
 
   const { id } = useParams();
 
