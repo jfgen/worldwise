@@ -1,4 +1,8 @@
+import { useEffect, useState } from "react";
+import { useParams } from "react-router-dom";
 import styles from "./City.module.css";
+import { BASE_URL } from "../App";
+import Spinner from "./Spinner";
 
 const formatDate = (date) =>
   new Intl.DateTimeFormat("en", {
@@ -9,15 +13,30 @@ const formatDate = (date) =>
   }).format(new Date(date));
 
 function City() {
-  // TEMP DATA
-  const currentCity = {
-    cityName: "Lisbon",
-    emoji: "🇵🇹",
-    date: "2027-10-31T15:59:59.138Z",
-    notes: "My favorite city so far!",
-  };
+  const [currentCity, setCurrentCity] = useState({});
+  const [isLoading, setIsLoading] = useState(false);
+
+  const { id } = useParams();
+
+  useEffect(() => {
+    const fetchCity = async () => {
+      try {
+        setIsLoading(true);
+        const res = await fetch(`${BASE_URL}/cities/${id}`);
+        const data = await res.json();
+        setCurrentCity(data);
+      } catch {
+        alert("There was an error loading data...");
+      } finally {
+        setIsLoading(false);
+      }
+    };
+    fetchCity();
+  }, [id]);
 
   const { cityName, emoji, date, notes } = currentCity;
+
+  if (isLoading) return <Spinner />;
 
   return (
     <div className={styles.city}>
@@ -51,9 +70,7 @@ function City() {
         </a>
       </div>
 
-      <div>
-        <ButtonBack />
-      </div>
+      <div>{/* <ButtonBack /> */}</div>
     </div>
   );
 }
