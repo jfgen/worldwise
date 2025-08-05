@@ -10,7 +10,7 @@
         "lat": 38.727881642324164,
         "lng": -9.140900099907554
       },
-      "id": 73930385
+      "id": "73930385"
     },
     {
       "cityName": "Madrid",
@@ -22,19 +22,91 @@
         "lat": 40.46635901755316,
         "lng": -3.7133789062500004
       },
-      "id": 17806751
+      "id": "17806751"
     },
     {
-      "cityName": "Berlin",
+      "id": "b6e2",
+      "cityName": "Macroom",
+      "country": "Ireland",
+      "emoji": "🇮🇪",
+      "date": "2025-08-05T13:11:48.654Z",
+      "notes": "test",
+      "position": {
+        "lat": "51.89547799597905",
+        "lng": "-8.721309929193211"
+      }
+    },
+    {
+      "id": "5bab",
+      "cityName": "Guildford",
+      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+      "emoji": "🇬🇧",
+      "date": "2025-08-05T13:14:04.670Z",
+      "notes": "",
+      "position": {
+        "lat": "51.27566243415853",
+        "lng": "-0.48339843750000006"
+      }
+    },
+    {
+      "id": "61b2",
+      "cityName": "Faro",
+      "country": "Portugal",
+      "emoji": "🇵🇹",
+      "date": "2025-08-05T13:16:33.378Z",
+      "notes": "",
+      "position": {
+        "lat": "37.092430683283474",
+        "lng": "-7.909702752862359"
+      }
+    },
+    {
+      "id": "fc7e",
+      "cityName": "Watford",
+      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+      "emoji": "🇬🇧",
+      "date": "2025-08-05T13:20:55.032Z",
+      "notes": "",
+      "position": {
+        "lat": "52.30624485728051",
+        "lng": "-1.1206054687500002"
+      }
+    },
+    {
+      "id": "ef1c",
+      "cityName": "Reipoltskirchen",
       "country": "Germany",
       "emoji": "🇩🇪",
-      "date": "2027-02-12T09:24:11.863Z",
-      "notes": "Amazing 😃",
+      "date": "2025-08-05T13:20:55.032Z",
+      "notes": "this is another test",
       "position": {
-        "lat": 52.53586782505711,
-        "lng": 13.376933665713324
-      },
-      "id": 98443197
+        "lat": "49.61070993807422",
+        "lng": "7.6558429068402765"
+      }
+    },
+    {
+      "id": "25f6",
+      "cityName": "Saint-Merd-les-Oussines",
+      "country": "France",
+      "emoji": "🇫🇷",
+      "date": "2025-08-05T13:22:51.655Z",
+      "notes": "",
+      "position": {
+        "lat": "45.60788932202886",
+        "lng": "2.0289670777709605"
+      }
+    },
+    {
+      "id": "8e62",
+      "cityName": "Salins",
+      "country": "France",
+      "emoji": "🇫🇷",
+      "date": "2025-08-05T13:23:47.765Z",
+      "notes": "",
+      "position": {
+        "lat": "45.182036837015886",
+        "lng": "2.397302477067869"
+      }
     }
   ]
 }
