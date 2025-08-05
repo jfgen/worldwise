@@ -25,30 +25,6 @@
       "id": "17806751"
     },
     {
-      "id": "b6e2",
-      "cityName": "Macroom",
-      "country": "Ireland",
-      "emoji": "🇮🇪",
-      "date": "2025-08-05T13:11:48.654Z",
-      "notes": "test",
-      "position": {
-        "lat": "51.89547799597905",
-        "lng": "-8.721309929193211"
-      }
-    },
-    {
-      "id": "5bab",
-      "cityName": "Guildford",
-      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-      "emoji": "🇬🇧",
-      "date": "2025-08-05T13:14:04.670Z",
-      "notes": "",
-      "position": {
-        "lat": "51.27566243415853",
-        "lng": "-0.48339843750000006"
-      }
-    },
-    {
       "id": "61b2",
       "cityName": "Faro",
       "country": "Portugal",
@@ -106,6 +82,42 @@
       "position": {
         "lat": "45.182036837015886",
         "lng": "2.397302477067869"
+      }
+    },
+    {
+      "id": "b80d",
+      "cityName": "Odiham",
+      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+      "emoji": "🇬🇧",
+      "date": "2025-08-05T13:58:27.600Z",
+      "notes": "",
+      "position": {
+        "lat": "51.23440735163461",
+        "lng": "-0.9228515625000001"
+      }
+    },
+    {
+      "id": "6efc",
+      "cityName": "Wanstrow",
+      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+      "emoji": "🇬🇧",
+      "date": "2025-08-05T13:59:07.592Z",
+      "notes": "",
+      "position": {
+        "lat": "51.19000379791535",
+        "lng": "-2.39501953125"
+      }
+    },
+    {
+      "id": "8e10",
+      "cityName": "Anzegem",
+      "country": "Belgium",
+      "emoji": "🇧🇪",
+      "date": "2025-08-05T14:03:06.737Z",
+      "notes": "",
+      "position": {
+        "lat": "50.8301584020299",
+        "lng": "3.4497070312500004"
       }
     }
   ]
