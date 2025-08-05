@@ -43,13 +43,13 @@ function Form() {
         setGeoCodingError("");
         setIsLoadingGeocoding(true);
         const res = await fetch(
-          `https://api.bigdatacloud.net/data/reverse-geocode-client?latitude=${lat}&longitude=${lng}`
+          `https://api.bigdatacloud.net/data/reverse-geocode-client?latitude=${lat}&longitude=${lng}`,
         );
         const data = await res.json();
 
         if (!data.countryCode) {
           throw new Error(
-            "That doesn't seem to be a city, click somewhere else!"
+            "That doesn't seem to be a city, click somewhere else!",
           );
         }
         setCityName(data.city || data.locality || "");
@@ -102,11 +102,6 @@ function Form() {
 
       <div className={styles.row}>
         <label htmlFor="date">When did you go to {cityName}?</label>
-        {/* <input
-          id="date"
-          onChange={(e) => setDate(e.target.value)}
-          value={date}
-        /> */}
         <DatePicker
           selected={date}
           onChange={(newDate) => setDate(newDate)}

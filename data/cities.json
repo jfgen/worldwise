@@ -61,18 +61,6 @@
       }
     },
     {
-      "id": "25f6",
-      "cityName": "Saint-Merd-les-Oussines",
-      "country": "France",
-      "emoji": "🇫🇷",
-      "date": "2025-08-05T13:22:51.655Z",
-      "notes": "",
-      "position": {
-        "lat": "45.60788932202886",
-        "lng": "2.0289670777709605"
-      }
-    },
-    {
       "id": "8e62",
       "cityName": "Salins",
       "country": "France",
@@ -82,30 +70,6 @@
       "position": {
         "lat": "45.182036837015886",
         "lng": "2.397302477067869"
-      }
-    },
-    {
-      "id": "b80d",
-      "cityName": "Odiham",
-      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-      "emoji": "🇬🇧",
-      "date": "2025-08-05T13:58:27.600Z",
-      "notes": "",
-      "position": {
-        "lat": "51.23440735163461",
-        "lng": "-0.9228515625000001"
-      }
-    },
-    {
-      "id": "6efc",
-      "cityName": "Wanstrow",
-      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-      "emoji": "🇬🇧",
-      "date": "2025-08-05T13:59:07.592Z",
-      "notes": "",
-      "position": {
-        "lat": "51.19000379791535",
-        "lng": "-2.39501953125"
       }
     },
     {
